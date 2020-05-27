@@ -1,4 +1,4 @@
-## Multi Container App in Single Node Cluster using Docker Swarm.
+## Multi Container App in two Node Cluster using Docker Swarm.
 
 * A DevOps Project to display Location of IP address.
 
@@ -171,7 +171,14 @@ $
 
 Now we're going to update the replicas set from 4 to 6 container. 
 
+```
+]$ docker service update --replicas 6  ipstack-app
+ipstack-app
+overall progress: 6 out of 6 tasks                                                                                                                                      1/6: running   [==================================================>]                                                                       2/6: running   [==================================================>]                                                                        3/6: running   [==================================================>]                                                                        4/6: running   [==================================================>]                                                                        5/6: running   [==================================================>]                                                                        6/6: running   [==================================================>]                                                                        verify: Service converged                                                                                                                   $
 
+```
+
+Here we can see the Worker Node2 have 2 running container.
 
 ```
 $ docker ps
