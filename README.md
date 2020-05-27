@@ -183,9 +183,9 @@ $
 
 Loading from Worker Node 1
 
-![alt Out2](https://github.com/adarshgeorge/docker-swarm-multi_container_app/blob/master/png/2.png) 
+![alt Out2](https://github.com/adarshgeorge/docker-swarm-multi_container_app/blob/master/png/worker1.png) 
 
 Loading from Worker Node 2
 
 
-![alt Out2](https://github.com/adarshgeorge/docker-swarm-multi_container_app/blob/master/png/searching2.png) 
+![alt Out2](https://github.com/adarshgeorge/docker-swarm-multi_container_app/blob/master/png/worker2.png) 
